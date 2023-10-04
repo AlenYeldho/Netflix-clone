@@ -1,0 +1,65 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    top:0%;
+    padding: 20px;
+    height: 27px;
+    display: flex;
+    background-color: #111;
+    
+}
+
+
+.logo{
+    position: fixed;
+    left: 20px;
+    width: 80px;
+}
+.avathar{
+    position: fixed;
+    right: 10px;
+    width: 30px;
+}
+.navtxt{
+    text-decoration: none;
+    padding-right: 40px;
+    font-size:15px;
+   color: white;
+    
+}
+.homeset{
+    margin-left: 50px;
+    display: flex;
+    
+
+    
+}
+.lang{
+    color: white;
+    font-weight: 10px;
+    padding-right: 40px;
+    background: #111;
+    border-radius: 10px;
+}
+.search{
+    margin-left: 300px;
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+}
+.searchbtn{
+    margin-left: 5px;
+    background: #1d1b1b;
+    color: white;
+    height: 25px;
+    border-radius: 10px;
+    width: 80px;
+}
+.trailers{
+    margin-left: 90px;
+    color: rgb(35, 31, 31);
+    font-size: 15px;
+}    
+.trailer{
+    margin-top:10px;
+}

@@ -1,0 +1,36 @@
+.raw{
+    margin-left: 20px;
+    color: white;
+}
+.posters{
+display: flex;
+overflow-x: scroll;
+overflow-y: hidden;
+border-radius: 6%;
+
+}
+.poster{
+    max-height: 200px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 6%;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.smallposter{
+    max-height: 120px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 6%;
+    width: 500px;
+
+}
+.poster:hover{
+    transform: scale(1.1);
+    border-radius: 6%;
+}
+.smallposter:hover{
+    transform: scale(1.1);
+    border-radius: 4.5%;
+}
